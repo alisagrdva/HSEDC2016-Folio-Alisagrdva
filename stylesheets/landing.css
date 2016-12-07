@@ -1,5 +1,5 @@
 body.landing.bg {
-  background-image: url(../images/mockups/1680.png);
+  background-image: url(../images/mockups/1440.png);
   background-repeat: no-repeat;
   background-position: top center;
 }
@@ -34,7 +34,6 @@ body.landing .menubar div {
   width: 1440px;
   margin: 0 auto;
   box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
-  background-color: white;
 
 }
 
@@ -47,19 +46,20 @@ body.landing .menubar div {
 
 .mainSection h2 {
   font-family: 'PT Sans Caption', sans-serif;
-  font-size: 36px;
-  line-height: 46px;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 56px;
 }
 
 .mainSection p {
-  margin-top: 21px;
-  font-size: 26px;
-  line-height: 38px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 21px;
+  line-height: 36px;
 }
 
 .mainSection.center {
   text-align: center;
-  background-color: #FCFCFC;
+  /*background-color: #FCFCFC;*/
 }
 
 .mainSection.center h2 {
@@ -132,11 +132,11 @@ body.landing .menubar div {
 }
 
 #mockup1 {
-  top: 115px;
-  right: -116px;
-  width: 732px;
-  height: 660px;
-  background-image: url(../images/landing/landing-mockup-1.jpg);
+  top: 233px;
+  right: 158px;
+  width: 532px;
+  height: 670px;
+  background-image: url(../images/about.png);
 }
 
 #mockup2 {
@@ -144,17 +144,16 @@ body.landing .menubar div {
   left: 100px;
   width: 532px;
   height: 670px;
-  background-image: url(../images/landing/landing-mockup-2.jpg);
+  background-image: url();
 }
 
 #mockup3 {
-  top: 97px;
-  right: -732px;
-  width: 1348px;
-  height: 779px;
-  background-image: url(../images/landing/landing-mockup-3.jpg);
+  top: 344px;
+  right: 40px;
+  width: 760px;
+  height: 403px;
+  background-image: url(../images/screens.png);
   border-radius: 5px;
-  box-shadow: 0 2px 10px 0 rgba(0,0,0,.2);
 }
 
 
