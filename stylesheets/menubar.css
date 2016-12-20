@@ -2,12 +2,19 @@
   width: 100%;
 }
 
-.menubar {
+.menubar div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   height: 60px;
   padding: 30px;
   display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: white;
   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
 }
@@ -18,4 +25,16 @@
   width: 84px;
   height: 24px;
   background-image: url(../images/logo.svg);
+}
+
+@media screen and (max-width: 1179px) {
+  .menubar div {
+    height: 44px;
+  }
+
+  .logo {
+    width: 59px;
+    height: 17px;
+  }
+
 }
