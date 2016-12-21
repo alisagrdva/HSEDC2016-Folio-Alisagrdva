@@ -10,11 +10,11 @@
 
     <meta property="og:type" content="website">
     <meta property="og:url" content="http://folio.hack.exchange">
-    <meta property="og:title" content="Wikimedium">
+    <meta property="og:title" content="Folio">
     <meta property="og:description" content="Шаблон сайта-портфолио, разработанный командой Hæd Exchange для обучения основам веб-вёрстки в рамках образовательного проекта Hack Exchange.">
     <meta property="og:image" content="http://wikimedium.hack.exchange/images/share.png">
 
-    <link rel="icon" type="image/png" href="apple-touch-icon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
     <link rel="icon" type="image/png" href="favicon 13.31.43.png" />
 
     <link rel="stylesheet" href="stylesheets/style.css">
@@ -23,7 +23,13 @@
 
   </head>
 
-  <body class="landing">
+  <body class="landing bg">
+    <nav class="menubar">
+      <div>
+        <figure class="logo"> </figure>
+      </div>
+    </nav>
+
     <section class= "landingWrapper">
       <section class="mainSection left">
         <section>
@@ -35,7 +41,7 @@
           <p>
             Шаблон сайта-портфолио, разработанный<br>
             командой Hæd Exchange для обучения основам<br>
-            веб-вёрстки в рамках образовательного проекта<br>
+            веб-вёрстки в рамках образовательного <br class="compact"> проекта<br class="full">
             Hack Exchange.
           </p>
 
@@ -62,6 +68,8 @@
         </section>
 
         <figure class="mockup" id="mockup2"></figure>
+        <figure class="mockup" id="mockup3"></figure>
+        <figure class="mockup" id="mockup4"></figure>
       </section>
 
       <section class="mainSection left">
@@ -73,14 +81,14 @@
 
           <p>
             Шаблон хорошо смотрится на компьютерах,<br>
-            планшетах и смартфонах. Не достаёт только версий<br>
+            планшетах и смартфонах. Не достаёт только <br class="media">  версий <br class="full">
             для телевизора и часов.
           </p>
 
           <figure></figure>
         </section>
 
-        <figure class="mockup" id="mockup3"></figure>
+        <figure class="mockup" id="mockup5"></figure>
       </section>
 
       <section class="mainSection center">
@@ -97,15 +105,15 @@
           </p>
 
           <nav>
-            <a class="btn small white"href="http://github.com/ZakharDay/Wikimedium">Исходный код на GitHub</a>
-            <a class="btn large green"href="http://lessons.hack.exchange">Курс на Hack Exchange</a>
+            <a class="btn large"href="http://lessons.hack.exchange">Курс на Hack Exchange</a>
+            <a class="btn small"href="http://github.com/ZakharDay/Wikimedium">Исходный код на GitHub</a>
           </nav>
         </section>
 
         <footer>
           <p>Пожалуйста, поделитесь знаниями с друзьями</p>
 
-          <div class="social-likes social-likes_single" data-url="http://wikimedium.hack.exchange" data-single-title="Поделиться">
+          <div class="social-likes social-likes_single" data-url="http://wikimedium.hack.exchange" data-single-title="Share">
             <div class="facebook" title="Поделиться ссылкой на Фейсбуке">Facebook</div>
             <div class="twitter" title="Поделиться ссылкой в Твиттере">Twitter</div>
             <div class="vkontakte" title="Поделиться ссылкой во Вконтакте">Вконтакте</div>
