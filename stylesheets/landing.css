@@ -383,18 +383,19 @@
 
 @media screen and (-webkit-min-device-pixel-ratio: 2) {
   #mockup1 {
-    background-image: url(../images/landing/retina/about-artboard@2x.png);
+    background-image: url(../images/about@2x.png);
   }
   #mockup2 {
-    background-image: url(../images/landing/retina/about@2x.png);
+    background-image: url(../images/about@2x.png);
   }
   #mockup3 {
-    background-image: url(../images/landing/retina/works@2x.png);
+    background-image: url(../images/works@2x.png);
   }
   #mockup4 {
-    background-image: url(../images/landing/retina/work@2x.png);
+    background-image: url(../images/work@2x.png);
   }
   #mockup5 {
-    background-image: url(../images/landing/retina/screens@2x.png);
+    background-image: url(../images/screens@2x.png);
   }
+}
 }
